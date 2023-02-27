@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://fonts.googleapis.com/css?family=Buenard' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		th, td{
+			font-family: Buenard;
+		}
+		h1, h2, h3, p{
+			font-family: Space Grotesk;
+		}
+		img{
+			height: 90px;
+			width: 90px;
+		}
+	</style>
+	<title>Q3 Exercise 3</title>
+</head>
+<body>
+		<nav class="navbar navbar-dark bg-dark text-light">
+		<a href="#" class="navbar-brand">OBMC</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">STUDENTS</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">ENROLLMENT</a></li>
+		</ul>
+		</nav>
+	<div class="container">
+	<h1 class="text-center" style="background-color: dimgray;">BOOTSTRAP TABLES</h1>
+	<table class="table table-striped table-hover table-act table-dark">
+		<tr>
+			<th>Profile Picture</th>
+			<th>First Name</th>
+			<th>Surname</th>
+			<th>Grade & Section</th>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/33/ac/46/33ac46c5538bde8dffd49fa2138a0f54.jpg" class="img-thumbnail"></td>
+			<td>Ava</td>
+			<td>Chen</td>
+			<td>9-Sapphire</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/5e/ed/e2/5eede207e461da993d7f08af3196ccb6.jpg"></td>
+			<td>Bridget</td>
+			<td>Von Ascheberg</td>
+			<td>9-Andalusite</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/5b/50/3d/5b503d2acac4330f8123fe1264d7f77e.jpg" class="img-thumbnail"></td>
+			<td>Jules</td>
+			<td>Ambrose</td>
+			<td>9-Ruby</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/8d/c9/4f/8dc94f89ff88551ea65200050fe7103b.jpg"></td>
+			<td>Stella</td>
+			<td>Alonso</td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/29/3a/95/293a95ac45fab6249c593bdff49ee894.jpg"></td>
+			<td>Alex</td>
+			<td>Volkov</td>
+			<td>9-Sapphire</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/66/04/72/660472355c93e728c01d017c0144ebd1.jpg"></td>
+			<td>Rhys</td>
+			<td>Larsen</td>
+			<td>9-Andalusite</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/de/de/3d/dede3dfba78191dfef4e3a17dc0c5f1e.jpg"></td>
+			<td>Josh</td>
+			<td>Chen</td>
+			<td>9-Ruby</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/93/6d/ac/936dacee8716c1bbaddbcdc6947e9905.jpg"></td>
+			<td>Christian</td>
+			<td>Harper</td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/564x/0c/50/43/0c50436f770f7323bfe87065e33aff4d.jpg"></td>
+			<td>Mr. Unicorn</td>
+			<td>Alonso</td>
+			<td>9-Emerald</td>
+		</tr>
+	</table>
+	<br>
+	<h2 class="text-center" style="background-color: dimgray;">ENROLLMENT FORM</h2>
+	<form>
+		<p style="background-color: lightgray;"> Enter First Name: <p/> <input type="text" name="First Name" class="form control" placeholder="Enter Your First Name"> <br>
+		<p style="background-color: lightgray;"> Enter Last Name: </p> <input type="text" name="Surname" class="form control" placeholder="Enter Your Last Name"> <br>
+		<br>
+		<p style="background-color: lightgray;">Choose Book:</p>
+		<select class="form-control">
+			<option>Twisted Love</option>
+			<option>Twisted Games</option>
+			<option>Twisted Hate</option>
+			<option>Twisted Lies</option>
+		</select>
+		<br>
+		<p style="background-color: lightgray;">Date Enrolled:</p><input type="date" name="enrolled" class="form-control"> <br>
+		<input type="file" name="profile" class="btn btn-info btn-block"> <br>
+		<input type="submit" value="ADD STUDENT" class="btn btn-dark btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+	</form>
+	<br>
+	<small>&copy;BMaristela2023</small>
+	</div>
+</body>
+</html>
